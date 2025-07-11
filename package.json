@@ -1,0 +1,26 @@
+{
+  "name": "2016youtubetv",
+  "version": "1.0.0",
+  "main": "/back/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node back/server.js"
+  },
+  "keywords": [],
+  "author": "Erie Valley Software",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "cors-anywhere": "^0.4.4",
+    "distube": "^5.0.7",
+    "express": "^4.21.2",
+    "node-cache": "^5.1.2",
+    "qrcode": "^1.5.4",
+    "youtube-dl-exec": "^3.0.22",
+    "youtubei.js": "^14.0.0",
+    "yt-dlp-wrap": "^2.3.12"
+  }
+}
