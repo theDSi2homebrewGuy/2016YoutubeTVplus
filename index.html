@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+
+<html xmlns:yt="http://youtube.com">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+ 
+    <script>
+        (function () {
+            (function () {
+                function d(a) {
+                    this.t = {};
+                    this.tick = function (a, c, b) {
+                        b = void 0 != b ? b : (new Date).getTime();
+                        this.t[a] = [b, c]
+                    };
+                    this.tick("start", null, a)
+                }
+                var a = new d;
+                window.jstiming = {
+                    Timer: d,
+                    load: a
+                };
+                if (window.performance && window.performance.timing) {
+                    var a = window.performance.timing,
+                        c = window.jstiming.load,
+                        b = a.navigationStart,
+                        a = a.responseStart;
+                    0 < b && a >= b && (c.tick("_wtsrt", void 0, b), c.tick("wtsrt_", "_wtsrt", a), c.tick("tbsd_", "wtsrt_"))
+                }
+                try {
+                    a = null, window.chrome && window.chrome.csi && (a = Math.floor(window.chrome.csi().pageT), c && 0 < b && (c.tick("_tbnd", void 0, window.chrome.csi().startE), c.tick("tbnd_", "_tbnd", b))), null == a && window.gtbExternal && (a = window.gtbExternal.pageT()), null == a && window.external && (a = window.external.pageT, c && 0 < b && (c.tick("_tbnd", void 0, window.external.startE), c.tick("tbnd_", "_tbnd", b))), a && (window.jstiming.pt = a)
+                } catch (e) { }
+            })();
+        })();
+    </script>
+    <script>
+        window.yterr = window.yterr || true;
+        var ytcfg = {
+            d: function () {
+                return (window.yt && yt.config_) || ytcfg.data_ || (ytcfg.data_ = {});
+            },
+            get: function (k, o) {
+                return (k in ytcfg.d()) ? ytcfg.d()[k] : o;
+            },
+            set: function () {
+                var a = arguments;
+                if (a.length > 1) {
+                    ytcfg.d()[a[0]] = a[1];
+                } else {
+                    for (var k in a[0]) {
+                        ytcfg.d()[k] = a[0][k];
+                    }
+                }
+            }
+        };
+        ytcfg.set("PAGE_CL", 115820802);
+        ytcfg.set("PAGE_BUILD_LABEL", "youtube_20160229_RC0");
+    </script>
+    <title>YouTube TV</title>
+    <link rel="icon" href="https://web.archive.org/web/20160301042623im_/https://s.ytimg.com/yts/favicon-vflz7uhzw.ico"
+        type="image/x-icon">
+
+    <meta name="description"
+        content="Watch the videos and channels you love on the big screen using Chromecast, smart TVs, game consoles, and other devices.">
+
+    <meta name="msXboxApplication-ID" content="423607D3">
+    <meta name="xboxOneApplication-ID" content="07459769">
+    <meta name="SC-WEBAPP-CONFIG" content="full">
+    <style>
+        #loader {
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: 0;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 60%;
+            background-color: #e62d27;
+            background-image: url(data:image/png;base64,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);
+        }
+    </style>
+
+    <style type="text/css"></style>
+</head>
+
+<body class="desktop sets-ui lang-en_US lang-case-sensitive" lang="en_US" style="font-size: 118%;">
+
+    <div id="leanback">
+
+    </div>
+    <script>
+
+        var currentHost = window.location.hostname;
+        var currentPort = window.location.port;
+
+        var APP_URL = "http://" + currentHost + ":" + (currentPort || "8090");  
+        var PROXY_URL = "http://" + currentHost + ":8070"; 
+
+        console.log("APP_URL:", APP_URL);
+        console.log("PROXY_URL:", PROXY_URL);
+
+
+        window['swfConfig'] = {
+            "url_v8": "https:\/\/web.archive.org\/web\/20160301042623\/https:\/\/s.ytimg.com\/yts\/swfbin\/player-vflWp-Ns-\/cps.swf",
+            "args": {
+                "gapi_hint_params": "m;\/_\/scs\/abc-static\/_\/js\/k=gapi.gapi.en.L3Aa5s3lbWU.O\/m=__features__\/am=AAQ\/rt=j\/d=1\/rs=AHpOoo-0iTqp-gUUTt97zQ-o996_icWxBA",
+                "idpj": "-8",
+                "host_language": "en",
+                "enablejsapi": "1",
+                "c": "TVHTML5",
+                "fexp": "9405985,9408492,9414703,9419452,9420452,9421503,9422596,9423661,9425362,9427241,9429351",
+                "eventid": "7xnVVoHwJsjW-wPopKLAAw",
+                "ssl": "1",
+                "hl": "en_US",
+                "apiary_host": "",
+                "cver": "4",
+                "cr": "US",
+                "innertube_api_key": "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8",
+                "fflags": "video_wall_moving_thumbnails_hover=false\u0026video_wall_moving_thumbnails_first=false\u0026enable_ad_video_end_renderers=false\u0026related_menu=false\u0026video_wall_storyboards_mouse_x=false\u0026dash_html5_refresh_mapping_min_buffer=0\u0026mweb_generate_cpn_on_page=false\u0026yto_enable_ytr_promo_refresh_assets=true\u0026enable_why_this_ad_for_desktop=true\u0026tote_otf_inline_hls_manifests=true\u0026video_wall_moving_thumbnails_autoplay=false\u0026legacy_autoplay_flag=true\u0026dash_html5_refresh_mapping_interval=0\u0026big_buffers_for_anchovy=false\u0026combined_teaser_link=false\u0026enable_audio_cast=true\u0026html5_playing_event_buffer_underrun=true\u0026moving_thumbnails_autonav=false\u0026use_smaller_session_tempdata_cookie_name=true\u0026better_mobile_in_player=false\u0026enable_stereo3d_ie_firefox_opera=true\u0026doubleclick_gpt_retagging=false\u0026tv_player_heartbeats=true\u0026cards_drawer_auto_open=false\u0026video_wall_pagination=false\u0026native_controls_assume_media_volume=true\u0026probability_to_change_skip=0.0\u0026html5_multicam=true\u0026new_ended_replay=false\u0026dynamic_ad_break_seek_threshold_sec=0\u0026enable_dynamic_ad_break=false\u0026show_ads_pay_this_creator_info_card=false\u0026html5_force_play_on_suspend_event_limited=false\u0026ad_info_icon_in_card=false\u0026teaser_on_button_hover=false\u0026hover_card_on_button_hover=false\u0026mweb_cougar_big_controls=false\u0026use_html5_ad_break_renderer_for_mweb=false\u0026drawer_peek=false\u0026log_backfill_requests=false\u0026yto_enable_unlimited_landing_page_yto_features=true\u0026preload_based_on_input=false\u0026trueview_shopping_v2_rendering=false\u0026enable_probabilistic_show_skip_as_nonskip=false\u0026mweb_cougar=false\u0026enable_spherical3d_firefox_opera=false\u0026html5_strip_emsg=true\u0026use_html5_ad_break_renderer=false\u0026log_teaser_hover=false\u0026send_presence_signal_vis_desktop=true\u0026autonav_notifications=false\u0026html5_nonfatal_invalid_state=true\u0026enable_spherical3d_ie=true\u0026merge_button_with_teaser=false\u0026endscreen_redirect=false\u0026html5_always_underrun_on_empty_buffer=false\u0026log_it_display_tree=true\u0026html5_crossorigin_video=false\u0026cards_drawer_auto_open_offset=0\u0026enable_probabilistic_show_nonskip_as_skip=false\u0026ad_video_end_disable_auto_open_drawer=false\u0026yto_enable_watch_offer_module=true\u0026html5_deadzone_multiplier=1.0\u0026html5_enable_cros_vp9=false\u0026enable_yt_music_lp=true\u0026always_request_animation_frame=false\u0026cards_drawer_auto_open_duration=-1\u0026player_scaling_360p_to_720p=false\u0026desktop_send_instream_ad_complete_ping=false\u0026dynamic_ad_break_pause_threshold_sec=0\u0026disable_new_pause_state3=true\u0026yto_feature_hub_channel=false\u0026sidebar_renderers=true\u0026mweb_uniplayer_disable_adaptation=false\u0026html5_live_nonzero_first_segment_start_time=false\u0026html5_enable_aac_51_clear=false\u0026creator_endscreens_enabled=false\u0026white_noise_with_interval=false\u0026html5_dash_mpd_version=3\u0026legacy_poster_behavior=true\u0026use_cougar_ads_ui=false\u0026cleanup_text_overlay_spam_signals=false\u0026video_wall_redesign=false\u0026edge_nonprefixed_eme=false\u0026enable_html5_spherical_direction_logging=true\u0026fix_afc_mpu_api_stats_ads=false\u0026use_html5_ad_break_renderer_for_embed=false\u0026html5_force_play_on_suspend_event=false\u0026quick_play_click=true\u0026ios_path_probe_enabled=true\u0026ui_logging=false\u0026hover_card_for_video_card_teaser=false\u0026html5_request_sizing_multiplier=0.8\u0026html5_ad_error_releases=false\u0026html5_live_disable_dg_pacing=true\u0026html5_live_only_stick_to_head=true\u0026product_listing_ads_cards_drawer_auto_open=false\u0026use_html5_ad_break_renderer_for_web_gaming=false",
+                "ldpj": "-8",
+                "innertube_api_version": "v1",
+                "apiary_host_firstparty": "",
+                "innertube_context_client_version": "1.20160229",
+                "player_error_log_fraction": "1.0",
+                "devjs": "false"
+            },
+            "url": "https:\/\/web.archive.org\/web\/20160301042623\/https:\/\/s.ytimg.com\/yts\/swfbin\/player-vflWp-Ns-\/watch_as3.swf",
+            "messages": {
+                "player_fallback": ["Adobe Flash Player or an HTML5 supported browser is required for video playback.\u003cbr\u003e\u003ca href=\"http:\/\/get.adobe.com\/flashplayer\/\"\u003eGet the latest Flash Player \u003c\/a\u003e\u003cbr\u003e\u003ca href=\"\/html5\"\u003eLearn more about upgrading to an HTML5 browser\u003c\/a\u003e"]
+            },
+            "html5": true,
+            "min_version": "8.0.0",
+            "url_v9as2": "https:\/\/web.archive.org\/web\/20160301042623\/https:\/\/s.ytimg.com\/yts\/swfbin\/player-vflWp-Ns-\/cps.swf",
+            "assets": {
+                "css": APP_URL + "/assets/www-player-vflz6YThU.css",
+                "js": APP_URL + "/assets/tv-player.js"
+            },
+            "sts": 16855,
+            "params": {
+                "allowfullscreen": "true",
+                "allowscriptaccess": "always",
+                "bgcolor": "#fffff"
+            },
+            "attrs": {
+                "id": "movie_player"
+            }
+        };
+        window['environment'] = {
+            "start_time": 1456804800,
+            "country": "US",
+            "model": "",
+            "experiments": [20452, 9420790, 9420951, 9421041, 9421128, 9421404, 9421503, 9421625, 9422250, 9422376, 9422575, 9422596, 9422849, 9422928, 9422972, 9423185, 9423465, 9423552, 9423555, 9423649, 9423661, 9423704, 9423911, 9423990, 9424159, 9424225, 9424255, 9424262, 9424666, 9424672, 9424678, 9424701, 9425033, 9425362, 9425553, 9425931, 9426070, 9426542, 9426994, 9427068, 9427175, 9427221, 9427241, 9427294, 9427491, 9427519, 9427654, 9427693, 9428083, 9428150, 9428476, 9428599, 9428905, 9428958, 9428971, 9428984, 9429351],
+            "visitor_data": "CgtnZkdxOHNFdmJjcw%3D%3D",
+            "language": null,
+            "tv_binary": "/assets/app-prod.js",
+            "flags": {
+                "atomSubscriptionsMultirowShelves": false,
+                "twoRowSearchResults": false,
+                "enableSafetyModeRename": true,
+                "useMdxProtocolV3": false,
+                "xhrExponentialBackoff": false,
+                "enableWhyThisAdForTv": true,
+                "watchedSearchBadge": true,
+                "hisenseSetsUi": 1,
+                "additionalTopics": false,
+                "voiceSearch": true,
+                "YTREDLOGO": true,
+                "focusVideos": true,
+                "nimblePlayAllShelf": 0,
+                "mdxEnablePostplayAutoplay": false,
+                "atomSubscriptionsRecentThreshold": 0,
+                "bentoRetentionBentoFirst": false,
+                "newMdxSkipButtonPair": true,
+                "bentoRetentionPlayAllHideDuration": false,
+                "atomSubscriptions": false,
+                "atomSubscriptionsFilterWatched": false,
+                "nimbleNextVsBack": false,
+                "freshActivityReporting": false,
+                "html5tvEnableMidroll": false,
+                "samoaSubscriptions": false,
+                "mdxEnableInvideoAutoplay": false,
+                "delayInstantSearch": 1,
+                "bentoRetentionPlayAll": false,
+                "samsungSeek": true,
+                "showTopicsPage": true,
+                "useYoutubeiDomain": true,
+                "twoRowSearchOrder": 1,
+                "newMdxSkipButtonCast": false,
+                "useColorButtons": true,
+                "anchovyLimitedMemory": false,
+                "freshTransport": false,
+                "mdxIgnoreFlings": true,
+                "noStoryboard": false,
+                "hdBadging": true
+            },
+            "xsrf_token": "QUFFLUhqa0EwT3N5dVcwX3ZrdGFteTZQSHhKeDVJcTN0QXxBQ3Jtc0tualJ1dTBIS2hEUGxVbFdhUjlqNzhTWmpPZXBoVmI1bEN5eG1WckVsUGhid2Jib0xXb2VHXzhjd0U3ZUlvQ20zaGREQVhSLWkyQ2hPejR6Z3A4dUZQZ3k2ck9welBBeW9xMXlDZVpuMVg3ekQ3QTZnaExwRy1Wc0xzTUJkRGxxOHZVM2xIYmxSSWs0UjNpM1VTNkhRQXN3bm9NYkE=",
+            "varz": {
+                "network_retry": true,
+                "watch_list_sw": 100,
+                "exceptions_sw": 100,
+                "xbox_launches": "939403",
+                "interaction_logging_sw": 1,
+                "steel_whitelist_sw": 100,
+                "audio_config_sw": 1,
+                "post_play_sw": 100,
+                "voice_gesture_sw": 100,
+                "dash_enabled": true,
+                "cast_kids_promo": false,
+                "prevent_progressive": false,
+                "vvt_vss_logging": 0,
+                "backend_error_sw": 25,
+                "activity_sw": 100,
+                "playback_failure_sw": 500,
+                "h5_exceptions_sw": 100,
+                "tv_4k_house_channel": true
+            },
+            "tv_css": APP_URL + "/assets/app-prod.css",
+            'player_url': APP_URL + "/assets/tv-player.js",
+            "background": "",
+            "server_ua": "Mozilla\/5.0 (compatible; heritrix\/3.3.0-SNAPSHOT-20140702-2247 +http:\/\/archive.org\/details\/archive.org_bot),gzip(gfe)",
+            "theme": "cl",
+
+        };
+        window['loader'] = "live";
+        window['devjs'] = false;
+        window['appRoot'] = "/assets/";
+        ytcfg.set("EXPERIMENT_FLAGS", {});
+        ytcfg.set("CORS_HEADER_ADD_ORIGIN", true);
+    </script>
+    <script src="assets/live.js"></script>
+
+    <script>
+        /*
+        checkBrokenLabel()
+        */
+    </script>
+
+    <script>
+
+    </script>
+
+
+
+
+
+</body>
+
+</html>
