@@ -1,0 +1,206 @@
+{
+    "responseContext": {
+      "visitorData": "CgtMV0RlakRZTXZtayihksq8BjIKCgJVUxIEGgAgJQ%3D%3D",
+      "serviceTrackingParams": [
+        {
+          "service": "GFEEDBACK",
+          "params": [
+            {
+              "key": "logged_in",
+              "value": "0"
+            },
+            {
+              "key": "e",
+              "value": "23804281,23953858,24004644,24077241,24108448,24166867,24181174,24241378,24290153,24439361,24499534,24502053,24548629,24552800,24566687,39328397,51010235,51017346,51020570,51021189,51025415,51037342,51037353,51043774,51050361,51053689,51063643,51089007,51098299,51111738,51115184,51124104,51146484,51151423,51152050,51174143,51176511,51178310,51178335,51178348,51178355,51183909,51193717,51204329,51217504,51222382,51222973,51227037,51228850,51230478,51237842,51241028,51242448,51248734,51255676,51256074,51256084,51274583,51276557,51276565,51281227,51285717,51287196,51292055,51294322,51296439,51298020,51299710,51299724,51303432,51303667,51303669,51303789,51304155,51305496,51305839,51310742,51311031,51311034,51313109,51313767,51313802,51316749,51316846,51318845,51322669,51326932,51327138,51327165,51327186,51327613,51330194,51331487,51331502,51331520,51331529,51331542,51331547,51331556,51331563,51332801,51332896,51333543,51333879,51334604,51335392,51335594,51335644,51335928,51337139,51337186,51338028,51340611,51340662,51341214,51341228,51341974,51342752,51342857,51343368,51343821,51345230,51345629,51346046,51346797,51346812,51346825,51346842,51346853,51346870,51346885,51346898,51347325,51349880,51351446,51352648,51353231,51353393,51353454,51353498,51354114,51354569,51355201,51355264,51355277,51355291,51355305,51355314,51355333,51355344,51355679,51357477,51360095,51360100,51360113,51360130,51360212,51360217,51361727,51361828,51362038,51362071,51362455,51362643,51362857,51363723,51363732,51363747,51363752,51363765,51363772,51364289,51365344,51365459,51365462,51365539,51366423,51366864,51366997,51367487,51367993,51369295,51369649,51370274,51370999,51371008,51371294,51371521,51372633,51372971,51374438,51375168,51375719,51376049,51376330,51376396,51376516,51376815,51379274,51380153,51380378,51380387,51380398,51380761,51380770,51380781,51380794,51380805,51380810,51380823,51380892,51381276,51381818,51381857,51381972,51381974,51383427,51383439,51383907,51384306,51384391,51384461,51384837,51384888,51385023,51385539,51386539,51387283,51388998"
+            }
+          ]
+        }
+      ]
+    },
+    "items": [
+      {
+        "guideSectionRenderer": {
+          "items": [
+            {
+              "guideEntryRenderer": {
+                "navigationEndpoint": {
+                  "clickTrackingParams": "CAIQtSwYACITCLSowKe7jIsDFZDMFgkdakQqlg==",
+                  "signInEndpoint": {
+                    "hack": false
+                  }
+                },
+                "icon": {
+                  "iconType": "SIGN_IN"
+                },
+                "trackingParams": "CA0QtSwYACITCLSowKe7jIsDFZDMFgkdakQqlg==",
+                "formattedTitle": {
+                  "runs": [
+                    {
+                      "text": "Sign in"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "guideEntryRenderer": {
+                "navigationEndpoint": {
+                  "clickTrackingParams": "CAsQtSwYACITCLSowKe7jIsDFZDMFgkdakQqlg==",
+                  "searchEndpoint": {
+                    "query": ""
+                  }
+                },
+                "icon": {
+                  "iconType": "SEARCH"
+                },
+                "trackingParams": "CAsQtSwYACITCLSowKe7jIsDFZDMFgkdakQqlg==",
+                "formattedTitle": {
+                  "runs": [
+                    {
+                      "text": "Search"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "guideEntryRenderer": {
+                "navigationEndpoint": {
+                  "clickTrackingParams": "CAoQtSwYASITCLSowKe7jIsDFZDMFgkdakQqlg==",
+                  "browseEndpoint": {
+                    "browseId": "home"
+                  }
+                },
+                "icon": {
+                  "iconType": "WHAT_TO_WATCH"
+                },
+                "trackingParams": "CAoQtSwYASITCLSowKe7jIsDFZDMFgkdakQqlg==",
+                "formattedTitle": {
+                  "runs": [
+                    {
+                      "text": "Home"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "guideEntryRenderer": {
+                "navigationEndpoint": {
+                  "clickTrackingParams": "CAkQtSwYAiITCLSowKe7jIsDFZDMFgkdakQqlg==",
+                  "browseEndpoint": {
+                    "browseId": "FEtopics_gaming"
+                  }
+                },
+                "icon": {
+                    "iconType": "GAMING"
+                },
+                "trackingParams": "CAkQtSwYAiITCLSowKe7jIsDFZDMFgkdakQqlg==",
+                "formattedTitle": {
+                  "runs": [
+                    {
+                      "text": "Gaming"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "guideEntryRenderer": {
+                "navigationEndpoint": {
+                  "clickTrackingParams": "CAgQnOQDGAMiEwi0qMCnu4yLAxWQzBYJHWpEKpY=",
+                  "browseEndpoint": {
+                    "browseId": "FEtopics_movies"
+                  }
+                },
+                "icon": {
+                    "iconType": "FILM"
+                },
+                "trackingParams": "CAgQnOQDGAMiEwi0qMCnu4yLAxWQzBYJHWpEKpY=",
+                "formattedTitle": {
+                  "runs": [
+                    {
+                      "text": "Movies & TV"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "guideEntryRenderer": {
+                "navigationEndpoint": {
+                  "clickTrackingParams": "CAcQtSwYBCITCLSowKe7jIsDFZDMFgkdakQqlg==",
+                  "browseEndpoint": {
+                    "browseId": "FEtopics_music"
+                  }
+                },
+                "icon": {
+                    "iconType": "MUSIC"
+                },
+                "trackingParams": "CAcQtSwYBCITCLSowKe7jIsDFZDMFgkdakQqlg==",
+                "formattedTitle": {
+                  "runs": [
+                    {
+                      "text": "Music"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+                "guideEntryRenderer": {
+                  "navigationEndpoint": {
+                    "clickTrackingParams": "CAIQtSwYACITCLSowKe7jIsDFZDMFgkdakQqlg==",
+                    "applicationSettingsEndpoint": {
+                      "hack": false
+                    }
+                  },
+                  "icon": {
+                    "iconType": "SETTINGS"
+                  },
+                  "trackingParams": "CAIQtSwYACITCLSowKe7jIsDFZDMFgkdakQqlg==",
+                  "formattedTitle": {
+                    "runs": [
+                      {
+                        "text": "Settings"
+                      }
+                    ]
+                  }
+                }
+              }
+            
+          ],
+          "trackingParams": "CAMQ5isYASITCLSowKe7jIsDFZDMFgkdakQqlg=="
+        }
+      }
+    ],
+    "trackingParams": "CAAQumkiEwi0qMCnu4yLAxWQzBYJHWpEKpY=",
+    "footer": {
+      "guideSectionRenderer": {
+        "items": [
+          {
+            "guideEntryRenderer": {
+              "navigationEndpoint": {
+                "clickTrackingParams": "CAIQtSwYACITCLSowKe7jIsDFZDMFgkdakQqlg==",
+                "applicationSettingsEndpoint": {
+                  "hack": true
+                }
+              },
+              "icon": {
+                "iconType": "SETTINGS"
+              },
+              "trackingParams": "CAIQtSwYACITCLSowKe7jIsDFZDMFgkdakQqlg==",
+              "formattedTitle": {
+                "runs": [
+                  {
+                    "text": "Settings"
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "trackingParams": "CAEQ5isiEwi0qMCnu4yLAxWQzBYJHWpEKpY="
+      }
+    }
+  }
