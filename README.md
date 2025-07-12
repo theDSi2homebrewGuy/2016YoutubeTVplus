@@ -22,7 +22,7 @@ Finally, after setting it up emter npm start in the command line and to use it f
 
 ---------------------------------------------------------------------------------------------------------------------
 
-You may be wondering why I have done this, I did this as the original creator has abandonded this project compleatly (hasn't updated it since around February 12th 2025 and the project had misnamed some files causing them not to load in some web browsers, or not to load at all. I have changed some names and also updated some files to be newer
+You may be wondering why I have done this, I did this as the original creator has abandonded this project completely (hasn't updated it since around February 12th 2025 and the project had misnamed some files causing them not to load in some web browsers, or not to load at all. I have changed some names and also updated some files to be newer
 
 Is this a compleatly original experience like 2016?
 
